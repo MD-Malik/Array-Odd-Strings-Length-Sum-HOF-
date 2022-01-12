@@ -1,0 +1,8 @@
+<script>
+    var arr=["eight","six","four","five","seven","three"]
+
+    var arr2=arr.filter((x)=>x.length%2==1);
+    var arr3=arr2.map((x)=>x.length);
+    var sum=arr3.reduce((prev,curr)=>prev+curr)
+    console.log(sum)
+</script>
